@@ -1,0 +1,175 @@
+body{
+	margin: 0px;
+	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(227,233,148,1) 100%);
+}
+
+#nav_header{
+	background-color: darkred;
+	background-attachment: fixed;
+}
+
+#body_header{
+	height: 65vh;
+	opacity: 0.8;
+	background-image: url("Static/wd.webp");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#body_header:hover{
+	height: 65vh;
+	opacity: 0.7;
+	background-image: url("Static/1.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.horizontzl-list{
+	list-style: none;
+	padding-left: 0px;
+	margin: 0px;
+}
+
+.horizontzl-list li{
+	display: inline-block;
+	margin: 0px 8px 8px 0px;
+}
+
+.horizontzl-list li a{
+	margin-top: 10vh;
+	font-size: 1.5rem;
+	color: white;
+	text-decoration: none;
+	transition: color 0.5s, border-bottom 4s;
+}
+
+.horizontzl-list li a:hover{
+	color: grey;
+	border-bottom: 1px solid white;
+}
+
+.text-center{
+	text-align: center;
+}
+
+#name-title-container{
+	margin-top: 20vh;
+}
+
+#my-name{
+	font-size: 3rem;
+	letter-spacing: 0.1rem;
+	color: white;
+	font-weight: 700;
+	margin-bottom: 0.5rem;
+}
+
+#job_title{
+	font-size: 2rem;
+	letter-spacing: 0.1rem;
+	color: whitesmoke;
+	font-weight: 650;
+	margin-bottom: 0.25rem;
+}
+
+#my-image{
+	height: 15rem;
+	width: 15rem;
+	margin: auto;
+	margin-top: -17vh;	
+}
+
+#my-image img{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	box-shadow: 6px 4px 6px 4px powderblue;
+}
+
+
+#intro{
+	height: auto;
+	width: 100%;
+	position: relative;
+}
+
+#resume{
+	background: rosybrown;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 70px;
+	width: 130px;
+	border-radius: 20px 30px;
+	border: 3px solid darkred;
+	transform: translate(545%);
+}
+
+#resume1{
+	color: floralwhite;
+	text-decoration: none;
+}
+
+#resume:hover{
+	background: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 70px;
+	border-radius: 20px;
+	border: 3px solid grey;
+	transform: translate(545%);
+}
+
+#resume1:hover{
+	color: white;
+}
+
+#head{
+	text-align: center;
+	font-size: 50px;
+	text-decoration: underline overline;
+	color: whitesmoke;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+#skill-title{
+	font-size: 20px;
+	text-decoration: solid underline;
+}
+
+.container {
+	border: auto;
+	align-content: center;
+	border-radius: 20px;
+  	width: 40%;
+  	background-color: #ddd;
+}
+
+.skills {
+  	text-align: right; /* Right-align text */
+  	padding-top: 10px; /* Add top padding */
+  	padding-bottom: 10px; /* Add bottom padding */
+  	color: white; /* White text color */
+}
+
+.java {width: 70%; background-color: #482e89; border-radius: 50px}
+.dsa {width: 60%; background-color: #090218; border-radius: 50px}
+.os {width: 75%; background-color: #96e808; border-radius: 50px}
+.html {width: 90%; background-color: #f1077c; border-radius: 50px}
+.css {width: 85%; background-color: #2e8960; border-radius: 50px}
+.js {width: 80%; background-color: #0cd1de; border-radius: 50px}
+.jq {width: 70%; background-color: #d0de0c; border-radius: 50px}
+.node {width: 82%; background-color: #de610c; border-radius: 50px}
+.passport {width: 80%; background-color: #190cde; border-radius: 50px}
+.postman {width: 75%; background-color: #908f9b; border-radius: 50px}
+.react {width: 85%; background-color: #0ab9de; border-radius: 50px}
+.sd {width: 90%; background-color: #940ade; border-radius: 50px}
+.rdbms {width: 80%; background-color: #23de0a; border-radius: 50px}
+.dbms {width: 80%; background-color: #95a8e373; border-radius: 50px}
+.indexing {width: 83%; background-color: #be4f7a; border-radius: 50px}
+.sql {width: 93%; background-color: #37d6c3; border-radius: 50px}
+.nosql {width: 90%; background-color: #79814b; border-radius: 50px}
+.mysql {width: 95%; background-color: #c50ee0; border-radius: 50px}
